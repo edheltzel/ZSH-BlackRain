@@ -2,7 +2,7 @@
 # Author: Ed Heltzel @ginfuru
 # License: MIT
 
-__PROMPT_SYMBOL="➔"
+__PROMPT_SYMBOL="❯"
 __UNCOMMITTED="+"
 __UNSTAGED="!"
 __UNTRACKED="?"
