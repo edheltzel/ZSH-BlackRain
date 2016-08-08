@@ -2,7 +2,7 @@
 # Author: Ed Heltzel @ginfuru
 # License: MIT
 
-__PROMPT_SYMBOL="❯"
+__PROMPT_SYMBOL="❯❯"
 __UNCOMMITTED="+"
 __UNSTAGED="!"
 __UNTRACKED="?"
@@ -12,7 +12,7 @@ __UNPUSHED="⇡"
 __NVM_SYMBOL="⬢"
 
 # Username.
-# If user is root, then pain it in red. Otherwise, just print in yellow.
+# If user is root, then print it in red. Otherwise, just print in yellow.
 __user() {
   if [[ $USER == 'root' ]]; then
     echo -n "%{$fg_bold[red]%}"
@@ -159,8 +159,8 @@ __nvm_status() {
 }
 
 # Command prompt.
-# Pain $PROMPT_SYMBOL in red if previous command was fail and
-# pain in green if all OK.
+# Paint $PROMPT_SYMBOL in red if previous command was fail and
+# paint in green if all OK.
 __return_status() {
   echo -n "%(?.%{$fg[green]%}.%{$fg[red]%})"
   echo -n "%B${__PROMPT_SYMBOL}%b"
