@@ -9,6 +9,6 @@ A zsh theme for OH-My-ZSH that is git aware
 
 ![git support](https://github.com/ginfuru/BlackRain/blob/master/images/error-handle-with-git-support.png)
 
-The screenshot show my iTerm2 color scheme - [RainCoat](https://github.com/ginfuru/iTerm-RainCoat).
+The screenshots show my iTerm2 color scheme - [RainCoat](https://github.com/ginfuru/iTerm-RainCoat).
 
 Thanks to @unixorn :thumbsup: for adding ZSH-BlackRain to [Awesome-ZSH-Plugins](https://github.com/unixorn/awesome-zsh-plugins) 
